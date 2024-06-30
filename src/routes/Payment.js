@@ -12,7 +12,7 @@ const Payment = () => {
   return (
     <div className="bg-[#F6F7F9] font-jakarta ">
       <Navbar />
-      <div className="flex flex-row justify-between  gap-[32px] mx-[32px]">
+      <div className="flex flex-col md:flex-row justify-between  gap-[32px] mx-[32px]">
         <div className="flex flex-col gap-[32px] my-[32px]">
           <div className="flex flex-col gap-[32px] bg-white rounded-[10px] w-full p-[24px]  ">
             <div className="flex items-center  justify-between">
@@ -29,7 +29,7 @@ const Payment = () => {
               </div>
             </div>
 
-            <div className="grid grid-rows-2 grid-flow-col gap-4">
+            <div className="grid grid-rows-4 md:grid-rows-2 grid-flow-col gap-4">
               <div className="flex flex-col gap-[16px]">
                 <h1 className="text-[#1A202C] text-[16px] font-semibold">
                   Name
@@ -77,7 +77,7 @@ const Payment = () => {
             </div>
           </div>
 
-          <div className="flex flex-col gap-[32px] bg-white rounded-[10px] w-[852px] p-[24px]">
+          <div className="flex flex-col gap-[32px] bg-white rounded-[10px] w-[350px]  md:w-[852px] p-[24px]">
             <div className="flex items-center  justify-between">
               <div>
                 <h1 className="text-[#1A202C] text-[20px] font-bold">
@@ -92,7 +92,7 @@ const Payment = () => {
               </div>
             </div>
 
-            <div className="flex flex-col gap-[32px]">
+            <div className="flex flex-col  gap-[32px]">
               <div className="flex flex-col gap-[24px]">
                 <div className="flex items-center gap-[8px] ">
                   <div className="h-[8px] w-[8px] bg-[#54A6FF] rounded-full outline outline-[#5CAFFC4D] outline-4"></div>
@@ -101,7 +101,7 @@ const Payment = () => {
                   </h1>
                 </div>
 
-                <div className="grid grid-rows-2 grid-flow-col gap-4">
+                <div className="grid grid-rows-3 md:grid-rows-2 grid-flow-col gap-4">
                   <div className="flex flex-col gap-[16px]">
                     <h1 className="text-[#1A202C] text-[16px] font-semibold">
                       Location
@@ -109,12 +109,12 @@ const Payment = () => {
                     <select
                       name="cars"
                       id="cars"
-                      className="bg-[#F6F7F9] rounded-[10px] py-[16px] px-[24px] outline-none text-[14px] text-[#90A3BF] font-medium"
+                      className="bg-[#F6F7F9]  rounded-[10px] py-[16px] px-[24px] outline-none text-[14px] text-[#90A3BF] font-medium"
                     >
                       <option value="volvo">Select your city</option>
-                      <option value="saab">Depok</option>
-                      <option value="mercedes">Bogor</option>
-                      <option value="audi">Jakarta</option>
+                      <option value="Depok">Depok</option>
+                      <option value="Bogor">Bogor</option>
+                      <option value="Jakarta">Jakarta</option>
                     </select>
                   </div>
 
@@ -127,10 +127,10 @@ const Payment = () => {
                       id="cars"
                       className="bg-[#F6F7F9] rounded-[10px] py-[16px] px-[24px] outline-none text-[14px] text-[#90A3BF] font-medium"
                     >
-                      <option value="volvo">Select your date</option>
-                      <option value="saab">1</option>
-                      <option value="mercedes">2</option>
-                      <option value="audi">3</option>
+                      <option value="Select your date">Select your date</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
                     </select>
                   </div>
                   <div className="flex flex-col gap-[16px]">
@@ -142,10 +142,10 @@ const Payment = () => {
                       id="cars"
                       className="bg-[#F6F7F9] rounded-[10px] py-[16px] px-[24px] outline-none text-[14px] text-[#90A3BF] font-medium"
                     >
-                      <option value="volvo">Select your time</option>
-                      <option value="saab">1 Pm</option>
-                      <option value="mercedes">2 PM</option>
-                      <option value="audi">3 PM</option>
+                      <option value="Select your time">Select your time</option>
+                      <option value="1 Pm">1 Pm</option>
+                      <option value="2 PM">2 PM</option>
+                      <option value="3 PM">3 PM</option>
                     </select>
                   </div>
                 </div>
@@ -159,7 +159,7 @@ const Payment = () => {
                   </h1>
                 </div>
 
-                <div className="grid grid-rows-2 grid-flow-col gap-4">
+                <div className="grid grid-rows-3 md:grid-rows-2 grid-flow-col gap-4">
                   <div className="flex flex-col gap-[16px]">
                     <h1 className="text-[#1A202C] text-[16px] font-semibold">
                       Location
@@ -211,7 +211,7 @@ const Payment = () => {
             </div>
           </div>
 
-          <div className="flex flex-col gap-[32px] bg-white rounded-[10px] w-[852px] p-[24px]">
+          <div className="flex flex-col gap-[32px] bg-white rounded-[10px] w-[350px]  md:w-[852px] p-[24px]">
             <div className="flex items-center  justify-between">
               <div>
                 <h1 className="text-[#1A202C] text-[20px] font-bold">
@@ -258,7 +258,7 @@ const Payment = () => {
                   </svg>
                 </div>
               </div>
-              <div className="grid grid-rows-2 grid-flow-col gap-4">
+              <div className="grid grid-rows-4 md:grid-rows-4 grid-flow-col gap-4">
                 <div className="flex flex-col gap-[16px]">
                   <h1 className="text-[#1A202C] text-[16px] font-semibold">
                     Card Number
@@ -332,7 +332,7 @@ const Payment = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col gap-[32px] bg-white rounded-[10px] w-[852px] p-[24px]">
+          <div className="flex flex-col gap-[32px] bg-white rounded-[10px] w-[350px]  md:w-[852px] p-[24px]">
             <div className="flex items-center  justify-between">
               <div>
                 <h1 className="text-[#1A202C] text-[20px] font-bold">
@@ -389,7 +389,7 @@ const Payment = () => {
           </div>
         </div>
 
-        <div className="flex flex-col h-[600px] w-[492px] my-[32px] gap-[32px] bg-white rounded-[10px] p-[24px]">
+        <div className="flex flex-col h-[700px] md:h-[600px] w-[350px] md:*:w-[492px] my-[32px] gap-[32px] bg-white rounded-[10px] p-[24px]">
           <div className="flex flex-col">
             <h1 className="text-[20px] text-[#1A202C] font-bold">
               Rental Sumary
@@ -399,7 +399,7 @@ const Payment = () => {
               price of your rental car.
             </p>
           </div>
-          <div className="flex gap-[16px] items-center">
+          <div className="flex flex-col md:flex-col-row gap-[16px] items-center">
             <div
               className="bg-cover h-[124px] w-[148px] rounded-[10px] "
               style={{ backgroundImage: `url(${PaymentPhoto})` }}

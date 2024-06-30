@@ -13,6 +13,7 @@ import { FaStar } from "react-icons/fa";
 import { FaRegStar } from "react-icons/fa";
 import { FaHeart } from "react-icons/fa";
 import { FaAngleDown } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 const Detail = () => {
   const CategoryCar = [
@@ -257,8 +258,8 @@ const Detail = () => {
           </div>
         </aside>
 
-        <div className="py-[32px] flex gap-[32px] flex-col justify-center px-[32px]">
-          <div className="grid grid-cols-2 gap-[32px]">
+        <div className="py-[32px] flex gap-[32px] flex-col justify-center px-[14px] md:px-[32px]">
+          <div className="grid grid-cols-1 md:grid-cols-2  gap-[32px]">
             <div className="flex flex-col gap-[24px]">
               <div
                 className="bg-cover h-[360px] rounded-[10px] p-[24px]"
@@ -358,7 +359,7 @@ const Detail = () => {
                   </h1>
                 </div>
 
-                <div className="flex justify-between">
+                <div className="flex flex-col gap-[12px] md:flex-row justify-between">
                   <div>
                     <div className="flex w-[200px] justify-between">
                       <h1>Type Car</h1>
@@ -388,9 +389,11 @@ const Detail = () => {
                     </h1>
                     <s className="text-[#90A3BF] text-[14px]">$100.00</s>
                   </div>
-                  <button className="h-[44px] w-[116px] bg-[#3563E9] text-white text-[16px] font-semibold rounded-[4px]">
-                    Rent Now
-                  </button>
+                  <Link to="/payment">
+                    <button className="h-[44px] w-[116px] bg-[#3563E9] text-white text-[16px] font-semibold rounded-[4px]">
+                      Rent Now
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -412,7 +415,7 @@ const Detail = () => {
                   alt="bakcground"
                 />
               </button>
-              <div className="flex flex-col w-[896px] gap-[12px]">
+              <div className="flex flex-col w-[250px] lg:w-[896px] gap-[12px]">
                 <div className="flex justify-between">
                   <div className="flex flex-col gap-[8px]">
                     <h1 className="text-[20px] font-bold text-[#1A202C]">
@@ -483,7 +486,7 @@ const Detail = () => {
                   alt="background"
                 />
               </button>
-              <div className="flex flex-col w-[896px] gap-[12px]">
+              <div className="flex flex-col w-[200px] lg:w-[896px] gap-[12px]">
                 <div className="flex justify-between">
                   <div className="flex flex-col gap-[8px]">
                     <h1 className="text-[20px] font-bold text-[#1A202C]">
