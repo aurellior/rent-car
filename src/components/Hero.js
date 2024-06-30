@@ -35,6 +35,7 @@ const Hero = () => {
             <img
               src="https://s3-alpha-sig.figma.com/img/2385/cc01/da9bb791587b8022c475d39822c50c17?Expires=1720396800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=h97Ab5VpBJ60L-8CZsbImRhLH0kK70otvvemIh-htEqF~g0hvZZ6mI8HcY4qNiuNWjTl993xoPhCo3pCpRf2ZUP~q90ydiuaEVmlousoP1aOAO~rrFyusZNt-XuMJ5OY8XbA~JeDo4L~agN2WxKgGCV7Kil2qOIucnCjlqW5Zbi-KKBlxsVEcpsxros~KNP-8SUB0kRnOUoAT~GiIo1eKHFASQBDH2xdfuGw7eXNKeoHRIdttx2xNS-HR-IG4sBpLKVBYI~v8egb7FBi9uwJQglEUXKZ3D89g5gFho4Hew1b8uwe86e12pFecNUHWvivZeYRVl4MZ8sLjJeiXPDLIg__"
               className="h-[100px] w-[400px] object-cover "
+              alt="background"
             ></img>
           </div>
         </div>
@@ -63,6 +64,7 @@ const Hero = () => {
             <img
               src="https://s3-alpha-sig.figma.com/img/702f/356e/48fe531e6fd2626c5d1041dbfcde3341?Expires=1720396800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=TlxD1EFa5IgILQkx7E8nAM2gVSI7YHeiyg-P9fz3h1hdYAQaFktMArOxztQzMxon~UIIHeFRD90jTfMa1zpsKtcrYJphU42YQhCikspf8ZkNo1SEVlfhgH11UPXeZ~g~l~UqP~ijnDZRFm1WMrZRAZ7kAYDNUZ7N-ZuKBvOcWc7aco4d9Ai9d1qZR5GATvaLrjINiepD9GykJb7jZ78ku8QgNgxdXmRLq4ZEgWHze2MIyMLde7biuluOzBolmooHTSf5agywx2BSTbK3Zr9M~XVtXahbKz9E~ebRlEMspwWkBKxTk21J-oMRzcOqkKkR4b1c2HBiZfxsrLyFIu8MvA__"
               className="h-[100px] w-[320px] object-cover  transform -scale-x-100 "
+              alt="background"
             ></img>
           </div>
         </div>

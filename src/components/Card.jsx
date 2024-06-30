@@ -34,6 +34,7 @@ const Card = (props) => {
               <img
                 src={props.image}
                 className={`h-[100px] w-[350px] object-cover  ${props.rotate}`}
+                alt="card"
               ></img>
             </div>
 

@@ -110,6 +110,7 @@ const Navbar = () => {
           <img
             src="https://s3-alpha-sig.figma.com/img/f1f5/6cb5/7c6c5d88e94501a481b5f732536c2851?Expires=1720396800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=D8qgOX44eueluIYxFpPYwmktdf9nJUjdp2kfkgS2rjllpSIA16hKnL2owGfDYohm63pZBO7zjjrCCnkpouOECDNLGbFybkj72VE~kyWp0oOyPSnV1ezx3XKwX3ImeoXQKzAIhkROSNpl--z5z2VnbDGRMT6JK0-7w0EV7juqF9LoBp4s-jlftQ9dcM6ARclrDSO5PF2zn3Gr2GStkKnOKktfADZOYXCKzEnczhRDvlvj19z4fN7AHUHJU73SDkBqbm2DcsBNMa5KlmVAlWmKc94LUAigQFXdJVnKZG7bICQAszZqKiqVa1uInAmwK3BGCxQ6mhaff195E7rTg1eYKw__"
             className="rounded-full "
+            alt="photo"
           />
         </button>
       </ul>
@@ -129,7 +130,7 @@ const Navbar = () => {
       >
         {/* Mobile Logo */}
         <div className="w-[60px]">
-          <img src={Logo} alt="" />
+          <img src={Logo} alt="Logo" />
         </div>
 
         {/* Mobile Navigation Items */}

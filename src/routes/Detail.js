@@ -277,6 +277,7 @@ const Detail = () => {
                   <img
                     src="https://s3-alpha-sig.figma.com/img/702f/356e/48fe531e6fd2626c5d1041dbfcde3341?Expires=1720396800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=TlxD1EFa5IgILQkx7E8nAM2gVSI7YHeiyg-P9fz3h1hdYAQaFktMArOxztQzMxon~UIIHeFRD90jTfMa1zpsKtcrYJphU42YQhCikspf8ZkNo1SEVlfhgH11UPXeZ~g~l~UqP~ijnDZRFm1WMrZRAZ7kAYDNUZ7N-ZuKBvOcWc7aco4d9Ai9d1qZR5GATvaLrjINiepD9GykJb7jZ78ku8QgNgxdXmRLq4ZEgWHze2MIyMLde7biuluOzBolmooHTSf5agywx2BSTbK3Zr9M~XVtXahbKz9E~ebRlEMspwWkBKxTk21J-oMRzcOqkKkR4b1c2HBiZfxsrLyFIu8MvA__"
                     className="object-cover transform -scale-x-100 w-[380px] h-[200px]"
+                    alt="background"
                   ></img>
                 </div>
               </div>
@@ -408,6 +409,7 @@ const Detail = () => {
                 <img
                   src="https://s3-alpha-sig.figma.com/img/f1f5/6cb5/7c6c5d88e94501a481b5f732536c2851?Expires=1720396800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=D8qgOX44eueluIYxFpPYwmktdf9nJUjdp2kfkgS2rjllpSIA16hKnL2owGfDYohm63pZBO7zjjrCCnkpouOECDNLGbFybkj72VE~kyWp0oOyPSnV1ezx3XKwX3ImeoXQKzAIhkROSNpl--z5z2VnbDGRMT6JK0-7w0EV7juqF9LoBp4s-jlftQ9dcM6ARclrDSO5PF2zn3Gr2GStkKnOKktfADZOYXCKzEnczhRDvlvj19z4fN7AHUHJU73SDkBqbm2DcsBNMa5KlmVAlWmKc94LUAigQFXdJVnKZG7bICQAszZqKiqVa1uInAmwK3BGCxQ6mhaff195E7rTg1eYKw__"
                   className="rounded-full "
+                  alt="bakcground"
                 />
               </button>
               <div className="flex flex-col w-[896px] gap-[12px]">
@@ -478,6 +480,7 @@ const Detail = () => {
                 <img
                   src="https://s3-alpha-sig.figma.com/img/1f59/2390/d69545d7cf9ff5be12e2248ebf54993a?Expires=1720396800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=O0POzmCnJdV9cAzWpWnrC5id0aJjC4oafX1PidVx2SvB5a9GdktO6VuLGE1sBjiSPI0IY-~xKUXYhsT7m1rCnrDW~2ls-u8s5~DH3VoKV-Z2GgHKw3TyySgUn8FvXMMZaAWbejuu~SrQX3IUjphamqXIFOxpOlmIpT~OWx3JrBlxSu~hV8qf2T8CGrTUgLqrS3SEmsFgDq1nyb3N3WG9ZMzw-bKLc~kv2VzSfnVZgg4nns0-iu1TSirfkYUDh8mMNS~LhWFd7va1E4RPgkmgCs8mfPMrZ3dfGvLlrVK4xORcSd2f2HPTHIUNOfJM5Q2LUMSEO~~m7EV3VHa-jK4GNQ__"
                   className="rounded-full "
+                  alt="background"
                 />
               </button>
               <div className="flex flex-col w-[896px] gap-[12px]">
